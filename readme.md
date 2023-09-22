@@ -101,3 +101,57 @@ Use either `squash` if it is a small PR with only one commit (in Azure DevOps, r
 ### 8\. Move your work item / JIRA Card
 
 - The card has to have the correct status.
+
+## Code
+
+### Coding Standards
+
+- Code following the established coding standards and conventions in your team.
+- Write in one language only (e.g. don't mix French and English, choose one).
+- Use design patterns wherever applicable.
+- Anticipate issues (e.g. resilience, security, ...)
+
+### Be a craftman
+
+Follow the [Software Craftmanship Manifesto](https://manifesto.softwarecraftsmanship.org/).
+
+### Know your Accronyms
+
+Embrace:
+
+- SOLID Principles
+- SoC
+- DRY
+- KISS
+- YAGNI
+
+## Tests
+
+### Unit Tests
+
+- Name your method to tell a story.
+  
+  ```csharp
+  public void DoSomething_WhenThisHappened_AndThatOccured() {
+    // Arrange
+
+    // Act
+
+    // Assert
+  }
+  ```
+
+- Don't keep useless Arrange/Act/Assert comments, add a carriage return instead.
+- Respect the same principles as when you code a feature.
+
+### Testing Standards
+
+- Cover your code just as you'd cover yourself in a harsh winter. Not always at 100%, but where you need it most.
+- Know test types and when to use them (Unit Tests, Integration Tests, E2E, PBT, ...).
+
+### Methods
+
+Embrace:
+
+- TDD
+- BDD
