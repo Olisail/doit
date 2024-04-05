@@ -64,6 +64,13 @@ Split your work in multiple commits. You're free to choose the correct granulari
 - Request code review from at least two team members. Synchronously if necessary.
 - Address and resolve code review comments.
 
+#### When Commenting
+
+- Be respectful.
+- Explain what you see, ask questions.
+
+Read [conventional comments](https://conventionalcomments.org/), which has great insights about commenting.
+
 ### 2\. Continuous Integration (CI)
 
 - Confirm CI build pipeline has passed successfully.
